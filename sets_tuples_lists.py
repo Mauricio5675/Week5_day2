@@ -22,3 +22,19 @@ print("pineapple" in fruits ) #prints true or false if a word is in the list (bo
 # fruits.sort() #sorts the list
 # fruits.reverse() #reverses the list
 # fruits.clear()
+
+#looping through the list 
+#otherwise called literating through the list
+cars = ["Chevy","Mercedes","GMC","Ford"]
+for car in cars:
+    #print(len(car))
+    #print(car)
+car_request = input("add a new car please")
+cars.append(car_request)
+print(cars)
+print(len(cars))
+print(cars.upper())
+print(cars.upper())
+print(cars)
+if len(cars) > 10:
+    break
